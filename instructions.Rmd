@@ -1,0 +1,21 @@
+---
+title: "instructions"
+author: "Erwan Guyomarch"
+date: "2 juillet 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Rstudio + Git
+
+From [this resource](http://www.geo.uzh.ch/microsite/reproducible_research/post/rr-rstudio-git/).
+
+### Setup GIT
+
+```
+git config --global user.name 'yourGitHubUsername'
+git config --global user.email 'name@provider.com'
+```
